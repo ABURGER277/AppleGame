@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "apple_game",
+      "cwd": "apple_game",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "deviceId": "macos"  // macOS 타겟 추가
+    },
+    {
+      "name": "apple_game (profile mode)",
+      "cwd": "apple_game",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "deviceId": "macos"  // macOS 타겟 추가
+    },
+    {
+      "name": "apple_game (release mode)",
+      "cwd": "apple_game",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "deviceId": "macos"  // macOS 타겟 추가
+    }
+  ]
+}
