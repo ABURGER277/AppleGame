@@ -1,4 +1,4 @@
-import 'package:apple_game/game.dart';
+import 'package:apple_game/game_navigator.dart';
 import 'package:apple_game/ranking.dart';
 import 'package:apple_game/setting.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                 // 버튼 1의 동작
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const GamePage()),
+                  MaterialPageRoute(builder: (context) => const GameNavigatorPage()),
                 );
               },
               child: Text('게임 시작'),
